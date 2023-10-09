@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyApp", "Spotify App\SpotifyApp.csproj", "{DD35DF40-EB19-489F-BC57-EAEE1D9B8559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreelancerApp", "FreelancerApp\FreelancerApp.csproj", "{8201A338-9BDF-43F7-8059-EB543AEACDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreelancerApp", "FreelancerApp\FreelancerApp.csproj", "{8201A338-9BDF-43F7-8059-EB543AEACDE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApp", "ProductsApp\ProductsApp.csproj", "{29706372-D985-4397-953A-F20A3F406ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8201A338-9BDF-43F7-8059-EB543AEACDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8201A338-9BDF-43F7-8059-EB543AEACDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8201A338-9BDF-43F7-8059-EB543AEACDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29706372-D985-4397-953A-F20A3F406ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29706372-D985-4397-953A-F20A3F406ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29706372-D985-4397-953A-F20A3F406ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29706372-D985-4397-953A-F20A3F406ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
