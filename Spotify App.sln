@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreelancerApp", "Freelancer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApp", "ProductsApp\ProductsApp.csproj", "{29706372-D985-4397-953A-F20A3F406ACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMethods", "LinqMethods\LinqMethods.csproj", "{F9648AA8-8CC3-4084-B06E-AD2161B8B2BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{29706372-D985-4397-953A-F20A3F406ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29706372-D985-4397-953A-F20A3F406ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29706372-D985-4397-953A-F20A3F406ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9648AA8-8CC3-4084-B06E-AD2161B8B2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9648AA8-8CC3-4084-B06E-AD2161B8B2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9648AA8-8CC3-4084-B06E-AD2161B8B2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9648AA8-8CC3-4084-B06E-AD2161B8B2BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
