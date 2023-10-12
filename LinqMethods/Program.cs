@@ -9,21 +9,14 @@ class Program
         string lastName = "Doe";
         string fullName = string.Concat(firstName, " ", lastName);
 
-        
-    }
-}
 
 
-class Program
-{
-    static void Main()
-    {
         List<string> names = new List<string>
         {
             "Alice", "Bob", "Alice", "Charlie", "Bob", "David"
         };
 
-        
+
         var uniqueNames = names.Distinct().ToList();
 
         Console.WriteLine("Benzersiz İsimler:");
@@ -31,13 +24,10 @@ class Program
         {
             Console.WriteLine(name);
         }
-    }
-}
 
-class Program
-{
-    static void Main()
-    {
+
+
+
         List<string> names = new List<string>
         {
             "Alice", "Bob", "Charlie", "David", "Eva", "Frank"
@@ -45,7 +35,7 @@ class Program
 
         int numberOfItemsToSkip = 2;
 
-        
+
         var skippedNames = names.Skip(numberOfItemsToSkip).ToList();
 
         Console.WriteLine($"{numberOfItemsToSkip} öğe atlandı:");
@@ -53,14 +43,10 @@ class Program
         {
             Console.WriteLine(name);
         }
-    }
-}
 
 
-class Program
-{
-    static void Main()
-    {
+
+
         List<string> names = new List<string>
         {
             "Alice", "Bob", "Charlie", "David", "Eva", "Frank"
@@ -68,7 +54,7 @@ class Program
 
         int numberOfItemsToTake = 3;
 
-        
+
         var selectedNames = names.Take(numberOfItemsToTake).ToList();
 
         Console.WriteLine($"{numberOfItemsToTake} öğe seçildi:");
@@ -76,13 +62,8 @@ class Program
         {
             Console.WriteLine(name);
         }
-    }
-}
 
-class Program
-{
-    static void Main()
-    {
+
         List<string> names = new List<string>
         {
             "Alice", "Bob", "Charlie", "David", "Eva", "Frank"
@@ -96,13 +77,8 @@ class Program
         {
             Console.WriteLine(name);
         }
-    }
-}
 
-class Program
-{
-    static void Main()
-    {
+
         List<string> names = new List<string>
         {
             "Alice", "Bob", "Charlie", "David", "Eva", "Frank"
@@ -116,10 +92,7 @@ class Program
         {
             Console.WriteLine(name);
         }
+
     }
 }
-
-
-
-
 
